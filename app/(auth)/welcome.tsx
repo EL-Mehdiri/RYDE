@@ -46,18 +46,18 @@ const Onboarding = () => {
             <Text className="text-lg  font-JakartaSemiBold text-center text-[#858585] mx-10 mt-3">
               {item.description}
             </Text>
-            <CustomButton
-              title={isLastSlide ? "Get Started" : "Next"}
-              onPress={() =>
-                isLastSlide
-                  ? router.replace("/(auth)/sign-up")
-                  : swiperRef.current?.scrollBy(1)
-              }
-              className="w-11/12 mt-10 mb-5"
-            />
           </View>
         ))}
       </Swiper>
+      <CustomButton
+        title={isLastSlide ? "Get Started" : "Next"}
+        onPress={() =>
+          isLastSlide
+            ? router.replace("/(auth)/sign-up")
+            : swiperRef.current?.scrollBy(1)
+        }
+        className="w-11/12 mt-10 mb-5"
+      />
     </SafeAreaView>
   );
 };
