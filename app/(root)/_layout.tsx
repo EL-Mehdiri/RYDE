@@ -1,11 +1,10 @@
-import { Text } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-
-const _Layout = () => {
+import { Stack } from "expo-router";
+const Layout = () => {
   return (
-    <SafeAreaView>
-      <Text>_Layout</Text>
-    </SafeAreaView>
+    <Stack>
+      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+    </Stack>
   );
 };
-export default _Layout;
+
+export default Layout;
