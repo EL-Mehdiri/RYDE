@@ -68,6 +68,7 @@ const Map = () => {
     destinationLongitude,
   });
   useEffect(() => {
+    setDrivers(drivers);
     if (Array.isArray(drivers)) {
       if (!userLatitude || !userLongitude) return;
       const newMarkers = generateMarkersFromData({
