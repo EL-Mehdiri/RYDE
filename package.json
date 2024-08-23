@@ -48,7 +48,8 @@
     "react-native-swiper": "^1.6.0",
     "react-native-web": "~0.19.10",
     "stripe": "^16.8.0",
-    "zustand": "^4.5.5"
+    "zustand": "^4.5.5",
+    "expo-updates": "~0.25.24"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
