@@ -32,7 +32,9 @@
     "expo-splash-screen": "~0.27.5",
     "expo-status-bar": "~1.12.1",
     "expo-system-ui": "~3.0.7",
+    "expo-updates": "~0.25.24",
     "expo-web-browser": "~13.0.3",
+    "metro-config": "^0.80.10",
     "nativewind": "^2.0.11",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -48,8 +50,7 @@
     "react-native-swiper": "^1.6.0",
     "react-native-web": "~0.19.10",
     "stripe": "^16.8.0",
-    "zustand": "^4.5.5",
-    "expo-updates": "~0.25.24"
+    "zustand": "^4.5.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
