@@ -1,50 +1,129 @@
-# Welcome to your Expo app 👋
+# Ryde Expo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<!-- ![Ryde Expo Logo](/assets/images/splash.png) -->
 
-## Get started
+Ryde Expo is a ride-hailing app that connects riders with drivers, similar to Uber. It offers a convenient and efficient way for users to book rides, track drivers, and make payments seamlessly.
 
-1. Install dependencies
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Configuration](#configuration)
+6. [Dependencies](#dependencies)
+7. [Examples](#examples)
+8. [Troubleshooting](#troubleshooting)
+9. [Contributing](#contributing)
+10. [License](#license)
+
+## Introduction
+
+Ryde Expo is designed to provide a seamless experience for both drivers and riders. With features like real-time tracking, in-app payments, and ride history, Ryde Expo aims to deliver a top-tier user experience in the ride-sharing industry.
+
+![App Overview](/assets/readme_Images/1.2%20Onboarding.png) <!-- Replace with a screenshot of your app's main screen -->
+
+## Features
+
+- **User Registration**: Easy sign-up and sign-in options for both riders and drivers.
+- **Real-time GPS Tracking**: Track the driver's location in real-time as they approach the pickup location.
+- **Ride Scheduling**: Option to schedule rides for a future date and time.
+- **In-App Payments**: Secure payment options including credit card, debit card, and mobile wallets.
+- **Ride History**: View past rides, including details like route, fare, and time.
+- **Ratings and Reviews**: Riders can rate their experience with drivers and vice versa.
+- **Notifications**: Push notifications for ride status, driver arrival, and promotions.
+
+![Features](</assets/readme_Images/Home%20Page%20(Ride).png>)
+
+## Installation
+
+To set up Ryde Expo locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/EL-Mehdiri/RYDE
+   cd RYDE
+   ```
+
+2. **Install the required dependencies:**
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. **Set up the environment variables:**
 
-   ```bash
-    npx expo start
+   Create a `.env` file in the root directory and add the required configuration. Example:
+
+   ```plaintext
+   EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=
+   DATABASE_URL=
+   EXPO_PUBLIC_SERVER_URL=
+   EXPO_PUBLIC_GEOAPIFY_API_KEY=
+   EXPO_PUBLIC_GOOGLE_API_KEY=
+   EXPO_PUBLIC_STRIPE_PUBLISHABEL_KEY=
+   STRIPE_SECRET_KEY=
    ```
 
-In the output, you'll find options to open the app in a
+4. **Start the development server:**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   ```bash
+   npm start
+   ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+5. **Open the app in your browser or mobile simulator.**
 
-## Get a fresh project
+## Usage
 
-When you're ready, run:
+- **For Riders:**
 
-```bash
-npm run reset-project
-```
+  1. Open the Ryde Expo app.
+  2. Register or log in using your credentials.
+  3. Enter your pickup location and destination.
+  4. Choose your ride type (e.g., standard, luxury, etc.).
+  5. Confirm the ride and wait for a driver to accept the request.
+  6. Track your driver's location in real-time and get notifications about their arrival.
+  7. At the end of the trip, pay using the in-app payment options.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+  ![Rider Usage](/assets/readme_Images/Ride%20Available%20Car%20list.png)
+  <!-- - **For Drivers:**
 
-## Learn more
+    1. Open the Ryde Expo driver app.
+    2. Log in using your driver credentials.
+    3. Start accepting ride requests.
+    4. Navigate to the rider's pickup location using the in-app navigation.
+    5. Complete the ride and receive payment directly through the app.
 
-To learn more about developing your project with Expo, look at the following resources:
+    ![Driver Usage](/assets/)  -->
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Dependencies
 
-## Join the community
+- **Frontend**: React Native (for mobile app), Redux (state management)
+- **Backend**: Node.js, Express.js, MongoDB
+- **Authentication**: JWT (JSON Web Tokens)
+- **Payment Processing**: Stripe or other payment gateways
+- **Real-Time Tracking**: Google Maps API or Mapbox API
+- **Push Notifications**: Firebase Cloud Messaging (FCM)
 
-Join our community of developers creating universal apps.
+## Examples
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Booking a Ride
+
+![Booking a Ride](/assets/readme_Images/Ride%20Information.png)
+
+## Contributing
+
+We welcome contributions to improve Ryde Expo! If you have suggestions or want to report an issue, please open an issue or submit a pull request.
+
+### Steps to Contribute
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Make your changes and commit them: `git commit -m 'Add your feature'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Open a pull request.
+
+---
+
+Thank you for using Ryde Expo! We hope you have a great experience
