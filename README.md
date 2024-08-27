@@ -11,11 +11,7 @@ Ryde Expo is a ride-hailing app that connects riders with drivers, similar to Ub
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Configuration](#configuration)
-6. [Dependencies](#dependencies)
-7. [Examples](#examples)
-8. [Troubleshooting](#troubleshooting)
-9. [Contributing](#contributing)
-10. [License](#license)
+6. [Examples](#examples)
 
 ## Introduction
 
