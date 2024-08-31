@@ -1,6 +1,5 @@
 # Ryde Expo
 
-<!-- ![Ryde Expo Logo](/assets/images/splash.png) -->
 
 Ryde Expo is a ride-hailing app that connects riders with drivers, similar to Uber. It offers a convenient and efficient way for users to book rides, track drivers, and make payments seamlessly.
 
@@ -17,7 +16,7 @@ Ryde Expo is a ride-hailing app that connects riders with drivers, similar to Ub
 
 Ryde Expo is designed to provide a seamless experience for both drivers and riders. With features like real-time tracking, in-app payments, and ride history, Ryde Expo aims to deliver a top-tier user experience in the ride-sharing industry.
 
-![App Overview](/assets/readme_Images/1.2%20Onboarding.png) <!-- Replace with a screenshot of your app's main screen -->
+![App Overview](/assets/readme_Images/1.2%20Onboarding.png)
 
 ## Features
 
